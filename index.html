@@ -3,23 +3,102 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Niddo</title>
+    <title>Niddo — Seu cão cresce. A gente te acompanha.</title>
+    <meta name="description" content="Niddo é o app que te guia na jornada com seu cão. Comportamento, rotina e bem-estar.">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
     <style>
         * { margin: 0; padding: 0; box-sizing: border-box; }
-        body { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif; line-height: 1.7; color: #333; background: #FAFAF7; display: flex; align-items: center; justify-content: center; min-height: 100vh; }
-        .container { text-align: center; padding: 40px 24px; }
-        h1 { font-size: 36px; color: #1a1a1a; margin-bottom: 12px; }
-        p { font-size: 18px; color: #666; margin-bottom: 32px; }
-        .links { display: flex; gap: 24px; justify-content: center; }
-        a { color: #3D52D5; font-size: 16px; text-decoration: none; }
-        a:hover { text-decoration: underline; }
+        body {
+            font-family: 'Poppins', -apple-system, BlinkMacSystemFont, sans-serif;
+            color: #2C2C2A;
+            background: #FAFAF7;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            min-height: 100vh;
+        }
+        .container {
+            text-align: center;
+            padding: 40px 24px;
+            max-width: 480px;
+        }
+        .logo {
+            width: 180px;
+            margin-bottom: 24px;
+        }
+        .maya {
+            width: 160px;
+            margin-bottom: 32px;
+        }
+        h1 {
+            font-size: 24px;
+            font-weight: 700;
+            color: #3D52D5;
+            margin-bottom: 8px;
+        }
+        .subtitle {
+            font-size: 16px;
+            color: #666;
+            margin-bottom: 12px;
+        }
+        .tags {
+            font-size: 14px;
+            color: #2D9B5A;
+            font-weight: 500;
+            margin-bottom: 36px;
+        }
+        .store-links {
+            display: flex;
+            gap: 16px;
+            justify-content: center;
+            margin-bottom: 48px;
+            flex-wrap: wrap;
+        }
+        .store-btn {
+            display: inline-block;
+            background: #3D52D5;
+            color: #fff;
+            font-family: 'Poppins', sans-serif;
+            font-size: 14px;
+            font-weight: 600;
+            padding: 12px 24px;
+            border-radius: 12px;
+            text-decoration: none;
+            transition: background 0.2s;
+        }
+        .store-btn:hover {
+            background: #2E41B0;
+        }
+        .footer-links {
+            display: flex;
+            gap: 24px;
+            justify-content: center;
+        }
+        .footer-links a {
+            color: #999;
+            font-size: 13px;
+            text-decoration: none;
+        }
+        .footer-links a:hover {
+            color: #3D52D5;
+        }
     </style>
 </head>
 <body>
     <div class="container">
-        <h1>Niddo</h1>
-        <p>Tudo que você precisa pra criar seu cão com confiança.</p>
-        <div class="links">
+        <img src="logo-fundo-transparente.png" alt="Niddo" class="logo">
+        <br>
+        <img src="maya-filhote-intro.png" alt="Maya" class="maya">
+        <h1>Seu cão cresce. A gente te acompanha.</h1>
+        <p class="subtitle">Tudo que você precisa sobre comportamento, rotina e bem-estar do seu cão.</p>
+        <p class="tags">Comportamento · Rotina · Bem-estar</p>
+        <div class="store-links">
+            <a href="#" class="store-btn">App Store</a>
+            <a href="#" class="store-btn">Google Play</a>
+        </div>
+        <div class="footer-links">
             <a href="/privacidade">Política de Privacidade</a>
             <a href="/termos">Termos de Uso</a>
         </div>
